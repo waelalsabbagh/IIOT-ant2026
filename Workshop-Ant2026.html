@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop on Securing the Industrial Internet of Things (IIoT) - ANT 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    
+    /* Hero with background image */
+    .hero {
+      background: linear-gradient(rgba(0,64,128,0.7), rgba(0,116,204,0.7)), url('https://images.unsplash.com/photo-1605902711622-cfb43c4431c3?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      color: white;
+    }
+    
+    /* Chair cards */
+    .chair-card {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .chair-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    }
+    .chair-card img {
+      width: 120px;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+
+    @media(min-width: 768px) { .chair-card { flex-direction: row; } }
+
+    section { scroll-margin-top: 80px; }
+    a:hover { color: #004080; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="hero p-12 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-pulse">Workshop on Securing the Industrial Internet of Things (IIoT)</h1>
+    <p class="text-xl md:text-2xl mt-4">In conjunction with the <strong>17th International Conference on Ambient Systems, Networks and Technologies (ANT 2026)</strong></p>
+    <a href="https://cs-conferences.acadiau.ca/ant-26/#paperSubmissions" target="_blank" class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1">
+  Submit Your Paper
+</a>
+  </header>
+
+ <!-- Workshop Overview -->
+<section class="max-w-6xl mx-auto p-8">
+  <h2 class="text-3xl font-semibold mb-4 border-b-4 border-blue-600 inline-block">Workshop Overview</h2>
+  <p class="mt-4 text-lg leading-relaxed">
+    As Industry 4.0 reshapes the landscape of modern manufacturing and industrial operations, the Industrial Internet of Things (IIoT) has emerged as a pivotal force-interconnecting machines, sensors, and control systems to drive unprecedented levels of efficiency, automation, and data-driven decision-making. While this interconnectedness offers immense operational benefits, it also amplifies cybersecurity risks, especially in safety-critical environments, where even a single security breach can lead to severe operational, financial, and human consequences.
+  </p>
+  <p class="mt-3 text-lg leading-relaxed">
+    The Workshop on Securing the Industrial Internet of Things brings together leading researchers, industry practitioners, and cybersecurity experts to address these pressing challenges. Participants will explore the latest threat landscapes, share innovative defense strategies, and discuss resilient architectural designs that ensure industrial networks remain robust, secure, and reliable. This forum provides a unique opportunity to advance knowledge, foster collaboration, and shape the future of IIoT security in an increasingly connected industrial world.
+  </p>
+</section>
+
+  <!-- Topics of Interest -->
+  <section class="max-w-6xl mx-auto p-8 bg-gradient-to-r from-blue-50 to-white shadow-xl rounded-3xl mt-8">
+    <h2 class="text-3xl font-semibold mb-6 border-b-4 border-blue-600 inline-block">Topics of Interest</h2>
+    <ul class="list-disc ml-6 space-y-2 text-lg">
+      <li>Threat landscape analysis and risk assessment in IIoT environments</li>
+      <li>Secure design and deployment of IIoT devices and systems</li>
+      <li>Intrusion detection and prevention techniques for IIoT networks</li>
+      <li>Cryptographic protocols and techniques for securing IIoT communications</li>
+      <li>Authentication and access control mechanisms for IIoT devices and users</li>
+      <li>Secure firmware and software update mechanisms for IIoT devices</li>
+      <li>Privacy-preserving techniques for IIoT data collection and processing</li>
+      <li>Compliance with industry standards (e.g., NIST, IEC, ISO)</li>
+      <li>Resilience and recovery strategies for IIoT systems</li>
+      <li>Integration of AI and ML for IIoT security enhancement</li>
+      <li>Case studies and real-world implementations</li>
+    </ul>
+  </section>
+
+  <!-- Submission Guidelines -->
+  <section id="submission" class="max-w-6xl mx-auto p-8 mt-8 bg-white shadow-xl rounded-3xl">
+    <h2 class="text-3xl font-semibold mb-4 border-b-4 border-blue-600 inline-block">Submission Guidelines</h2>
+    <p class="text-lg leading-relaxed">
+      Authors are invited to submit original, unpublished manuscripts in accordance with the guidelines provided on the 
+      <a href="https://cs-conferences.acadiau.ca/ant-26/" class="text-blue-600 underline">ANT 2026 website</a>.
+      All submitted papers will undergo peer review by the workshop's Technical Program Committee (TPC). 
+      Accepted papers will be published in the ANT 2026 Proceedings (Elsevier Procedia Computer Science) and indexed by Scopus, EI, and others.
+    </p>
+  </section>
+
+<!-- Workshop Chairs -->
+<section class="max-w-6xl mx-auto p-8 bg-gradient-to-r from-white to-blue-50 shadow-xl rounded-3xl mt-8">
+  <h2 class="text-3xl font-semibold mb-6 border-b-4 border-blue-600 inline-block">Workshop Chairs</h2>
+
+  <div class="space-y-10">
+    <!-- Dr. Wael Alsabbagh -->
+    <div class="chair-card flex flex-col md:flex-row bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="Images/Alsabbagh.png" alt="Dr. Wael Alsabbagh" class="mb-4 md:mb-0 md:mr-6">
+      <div class="flex-1">
+        <h3 class="font-bold text-xl text-blue-700">Dr. Wael Alsabbagh</h3>
+        <p>University of Doha for Science and Technology, Qatar</p>
+        <p class="mt-1 text-blue-600"><a href="mailto:wael.alsabbagh@udst.edu.qa" class="underline">wael.alsabbagh@udst.edu.qa</a></p>
+        <p class="mt-2 text-gray-800 text-justify">
+          Wael Alsabbagh received the M.Sc. degree in Automatic Control and Computer Engineering from Al-Baath University, Homs, Syria, in 2015, and the Ph.D. degree in Computer Science from the Brandenburg University of Technology Cottbus-Senftenberg, Germany, in 2023.
+          From 2018 to 2025, he was a Scientist with the IHP - Leibniz Institut f&uuml;r Innovative Mikroelektronik, Frankfurt (Oder), Germany. Since 2025, he has been an Assistant Professor with the University of Doha for Science and Technology, Qatar.
+          His research interests include cyber-attacks and security, with a focus on mitigation methods for attacks targeting industrial control systems (ICS) and SCADA systems.
+          His research has been recognized with several awards, including the IEEE Outstanding Paper Award for the <em>IEEE Open Journal of the Industrial Electronics Society</em> in 2024.
+          Dr. Alsabbagh also serves as a reviewer for several international conferences and journals, including <em>IEEE Access</em>, <em>IEEE Internet of Things Journal</em>, <em>Computers & Security</em>, and others.
+        </p>
+      </div>
+    </div>
+
+ <!-- Prof. Dr. Peter Langend&oumlrfer -->
+      <div class="chair-card flex flex-col md:flex-row bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+        <img src="Images/Langendoerfer.jpg" alt="Prof. Dr. Peter Langend&oumlrfer" class="mb-4 md:mb-0 md:mr-6">
+        <div class="flex-1">
+          <h3 class="font-semibold text-lg">Prof. Dr. Peter Langend&oumlrfer</h3>
+          <p>Brandenburg University of Technology Cottbus-Senftenberg, Germany</p>
+          <p class="mt-1 text-blue-600"><a href="mailto:langendoerfer@btu-cs.de" class="underline">langendoerfer@btu-cs.de</a></p>
+          <p class="mt-2 text-justify text-gray-800">
+            Prof. Dr. Peter Langend&oumlrfer is a full professor at the Brandenburg University of Technology Cottbus-Senftenberg (B-TU). From 2012 to 2020, he led the Chair for Security in Pervasive Systems, and since 2020, he has held the Chair of Wireless Systems. 
+            In addition to his duties at the university, he was with the IHP - Leibniz Institute f&uuml;r High Performance Microelectronics in Frankfurt (Oder), where he led the Cyber Physical System Engineering Department from 2020 to 2026.
+          </p>
+          <p class="mt-2 text-justify text-gray-800">
+            Peter holds a Diploma (1995) and a Doctorate in Computer Science (2001). He has published more than 210 refereed technical articles and filed 17 patents, 11 of which have already been granted. 
+            His research has been recognized with several awards, including the IEEE Outstanding Paper Award</strong> for the <em>IEEE Open Journal of the Industrial Electronics Society</em> in 2024.
+          </p>
+          <p class="mt-2 text-justify text-gray-800">
+            He serves as Associate Editor for <em>IEEE Access</em> and <em>Peer-to-Peer Networking</em>, and has worked as Guest Editor for leading journals such as <em>Wireless Communications and Mobile Computing (Wiley)</em> and 
+            <em>ACM Transactions on Internet Technology</em>. His research interests include security for resource-constrained devices, low-power protocols, efficient AI implementations, and resilience. 
+            Peter is also a member of the <em>Gesellschaft fuer Informatik (GI)</em>.
+          </p>
+        </div>
+      </div>
+
+    <!-- Prof. Dimitrios Serpanos -->
+    <div class="chair-card flex flex-col md:flex-row bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="Images/Serpanos.jpg" alt="Prof. Dimitrios Serpanos" class="mb-4 md:mb-0 md:mr-6">
+      <div class="flex-1">
+        <h3 class="font-bold text-xl text-blue-700">Prof. Dimitrios Serpanos</h3>
+        <p>University of Patras, Greece</p>
+        <p class="mt-1 text-blue-600"><a href="mailto:serpanos@ece.upatras.gr" class="underline">serpanos@ece.upatras.gr</a></p>
+        <p class="mt-2 text-gray-800 text-justify">
+          Dimitrios Serpanos is President of the Computer Technology Institute and Press DIOPHANTUS and Professor at the University of Patras, Greece.  
+          He holds a Ph.D. and an M.A. in Computer Science from Princeton University (1990 and 1988, respectively) and an Engineering Degree in Computer Engineering & Informatics from the University of Patras (1985).
+        </p>
+        <p class="mt-2 text-gray-800 text-justify">
+          He was a Research Staff Member (RSM) at IBM Research, T.J. Watson Research Center (1990-1996), and a faculty member at the University of Crete and a researcher at ICS-FORTH (1996-2000).  
+          Since 2000, he has been a Professor at the University of Patras, Department of Electrical & Computer Engineering.
+        </p>
+        <p class="mt-2 text-gray-800 text-justify">
+          Prof. Serpanos has served as President of the University of Western Greece (2010-2013) and as Director of the Industrial Systems Institute (ISI/ATHENA) (2008-2013, 2016-2021).  
+          Since 2021, he serves as President of CTI DIOPHANTUS. He is the first recipient in Greece of an IBM Faculty Award (2005).
+        </p>
+        <p class="mt-2 text-gray-800 text-justify">
+          His research interests include cybersecurity, architectures of embedded and cyber-physical (industrial) systems, with emphasis on developing real systems and prototypes tested both in laboratory and field environments.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- TPC Section -->
+  <section class="max-w-6xl mx-auto p-8 bg-white shadow-lg rounded-2xl mt-6">
+    <h2 class="text-2xl font-semibold mb-6 border-b-2 border-blue-600 inline-block">Technical Program Committee (TPC)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <p><strong>Dr. Alexander S&aumlnn</strong>, Ad2Solutions, Germany </p>
+        <p><strong>Prof. Christophe Bobda</strong>, University of Florida, USA </p>
+        <p><strong>Dr. Kyriakos Stefanidis</strong>, ISI, Athena, Greece </p>
+	<p><strong>Dr. Majd Soud</strong>, University of Doha for Science and Technology, Qatar</p>
+	<p><strong>Dr. Bassam Moussa</strong>, University of Doha for Science and Technology, Qatar</p>
+	<p><strong>Dr. Abdullatif Shikfa</strong>, University of Doha for Science and Technology, Qatar</p>
+      </div>
+      <div>
+	<p><strong>Kai Lehniger</strong>,Brandenburg University of Technology, Germany</p>
+	<p><strong>Dr. Mueen Uddin</strong>, University of Doha for Science and Technology, Qatar</p>
+	<p><strong>Dr. Marcin Brzozowski</strong>, Hochschule f&uuml;r Technik und Wirtschaft, Germany </p>
+	<p><strong>Chaerin Kim</strong>, Brandenburg University of Technology, Germany</p>
+        <p><strong>Prof. Henning Trsek</strong>, INIT-OWL, Germany </p>
+        <p><strong>Prof. Marilyn Wolf</strong>, University of Nebraska-Lincoln, USA </p>
+        <p><strong>Dr. Muhammad Taimoor Khan</strong>, University of Greenwich, UK </p>
+	 <p><strong>Marcin Jaroslaw Aftowicz</strong>, IHP GmbH, Germany </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-600 mt-12 mb-6">
+    &#64; 2025 Workshop on Securing IIoT - In conjunction with ANT 2026. All rights reserved.
+  </footer>
+
+</body>
+</html>
